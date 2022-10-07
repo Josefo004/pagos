@@ -1169,7 +1169,7 @@ class ProcesosController extends AppController {
             $pdf->SetY(16);
             $pdf->SetFont('freesans', 'B', 14);
             $pdf->SetTextColor(22, 102, 152);
-            $pdf->Cell(190, 6, 'Gobierno Autónomo de Chuquisaca', 0, 0, 'C');
+            $pdf->Cell(190, 6, 'Gobierno Autónomo Departamental de Chuquisaca', 0, 0, 'C');
             $pdf->Ln();
             $pdf->SetFont('freesans', 'B', 12);
             $pdf->SetTextColor(0, 0, 0);
@@ -1289,7 +1289,7 @@ class ProcesosController extends AppController {
             $pdf->SetY(16);
             $pdf->SetFont('freesans', 'B', 14);
             $pdf->SetTextColor(22, 102, 152);
-            $pdf->Cell(190, 6, 'Gobierno Autónomo de Chuquisaca', 0, 0, 'C');
+            $pdf->Cell(190, 6, 'Gobierno Autónomo Departamental de Chuquisaca', 0, 0, 'C');
             $pdf->Ln();
             $pdf->SetFont('freesans', 'B', 12);
             $pdf->SetTextColor(0, 0, 0);
@@ -1406,7 +1406,7 @@ class ProcesosController extends AppController {
         $pdf->SetY(16);
         $pdf->SetFont('freesans', 'B', 14);
         $pdf->SetTextColor(22, 102, 152);
-        $pdf->Cell('', 6, 'Gobierno Autónomo de Chuquisaca', 0, 0, 'C');
+        $pdf->Cell('', 6, 'Gobierno Autónomo Departamental de Chuquisaca', 0, 0, 'C');
         $pdf->Ln();
         $pdf->SetFont('freesans', 'B', 12);
         $pdf->SetTextColor(0, 0, 0);

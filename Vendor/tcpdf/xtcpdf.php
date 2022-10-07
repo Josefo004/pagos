@@ -4,9 +4,9 @@ App::import('Vendor', 'tcpdf/tcpdf/config/lang/spa');
 
 class XTCPDF extends TCPDF 
 { 
-    private $autor  = 'Gobierno Autónomo de Chuquisaca'; 
+    private $autor  = 'Gobierno Autónomo Departamental de Chuquisaca'; 
     private $copyright  = '© 2022 Gobierno Autónomo de Chuquisaca. Todos los derechos reservados';
-    private $titulo = 'Gobierno Autónomo de Chuquisaca';
+    private $titulo = 'Gobierno Autónomo Departamental de Chuquisaca';
     private $subtitulo = '';
     private $palabras_claves = 'Sucre, GACH, Procesos de pagos';
     private $orientacion = 'P';

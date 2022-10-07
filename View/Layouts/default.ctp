@@ -143,8 +143,8 @@
                             break;
                     }
                     
-                    echo $this->Html->link('Procesos <span>> Bs. 10.000</span>', array('controller' => 'procesos', 'action' => $action, 'mayor' => 'si', 'estado' => $estado_mayor), array('escape' => false, 'class' => $class_mayor));
-                    echo $this->Html->link('Procesos <span><= Bs. 10.000</span>', array('controller' => 'procesos', 'action' => $action, 'mayor' => 'no', 'estado' => $estado_menor), array('escape' => false, 'class' => $class_menor));
+                    echo $this->Html->link('Procesos', array('controller' => 'procesos', 'action' => $action, 'mayor' => 'si', 'estado' => $estado_mayor), array('escape' => false, 'class' => $class_mayor));
+                    //echo $this->Html->link('Procesos <span><= Bs. 10.000</span>', array('controller' => 'procesos', 'action' => $action, 'mayor' => 'no', 'estado' => $estado_menor), array('escape' => false, 'class' => $class_menor));
                     ?>
                     
                     <div class="right">

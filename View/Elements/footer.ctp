@@ -8,8 +8,8 @@
         ?>
     </div>
     <div id="credits">
-        &copy;2022 Gobierno Aut&oacute;nomo de Chuquisaca - Todos los derechos reservados<br />
-        Desarrollado por Servicios Inform&aacute;ticos <a href="mailto:marceloquispeortega@gmail.com" target="_blank">RootCode</a>. Versi&oacute;n: <?php echo Configure::read('App.version'); ?>. Ultima actualizaci&oacute;n: <?php echo Configure::read('App.update'); ?>
+        &copy;2022 Gobierno Aut&oacute;nomo Departamental de Chuquisaca - Todos los derechos reservados<br />
+        JSTI
     </div>
     <div class="clear"></div>
 </div>
